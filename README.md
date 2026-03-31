@@ -35,5 +35,8 @@ python main.py
 
 ## Future Work
 - Integration with real KNX hardware
+- Real-time implementation using IoT
+- Integration with KNX protocol devices
+- Advanced control (PID / AI-based optimization)
 - Embedded systems implementation (C/C++)
 - AI-based energy prediction
