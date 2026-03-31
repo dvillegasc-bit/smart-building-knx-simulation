@@ -1,4 +1,4 @@
-## 🚀 Smart Building Energy Optimization using KNX Automation
+## Smart Building Energy Optimization using KNX Automation
 ## Overview
 This project simulates a smart building energy management system using KNX automation to optimize energy consumption.
 
