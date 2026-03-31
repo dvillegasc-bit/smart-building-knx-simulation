@@ -39,3 +39,12 @@ python main.py
 - Advanced control (PID / AI-based optimization)
 - Embedded systems implementation (C/C++)
 - AI-based energy prediction
+
+## Author
+
+Daniel Felipe Villegas Castellanos  
+Electronic Engineer | Automation & Control Systems  
+
+📍 Colombia  
+📧 dvillegasc@ucentral.edu.co  
+🔗 GitHub: https://github.com/dvillegasc-bit
