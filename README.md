@@ -101,15 +101,6 @@ This project is being prepared for submission to an IEEE conference, combining r
 
 ---
 
-##  Author
-
-**Daniel Felipe Villegas Castellanos**  
-Electronic Engineer  
-
----
-
-##  Repository Structure
-
 
 ## Author
 
