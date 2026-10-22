@@ -1,112 +1,93 @@
-#  Smart Building Energy Optimization using KNX Automation
+KNX-Based Building Automation Design — Melbourne Building
 
-This project presents a smart building energy optimization model based on a real office building in Colombia. The system integrates KNX automation, occupancy-based control strategies, and simulation to reduce energy consumption.
+Project Overview
 
-The results show an approximate **25% reduction in energy usage**, along with an estimated **Return on Investment (ROI) of ~4.5 years**, demonstrating both technical and economic feasibility.
+This repository documents a conceptual building automation design developed as part of an Electronic Engineering graduation project at Universidad Central, Bogotá, Colombia.
 
----
+The project explores the proposed use of KNX-based building automation to improve energy management in a hypothetical multi-level administrative and service building with an approximate floor area of 1,015.9 m².
 
-##  Project Overview
+The design considers occupancy-aware lighting control, daylight-responsive lighting strategies, DALI lighting control, user-operated lighting scenes, environmental monitoring, and a proposed interface between KNX and HVAC equipment.
 
-- Simulation of energy consumption in multi-zone buildings
-- KNX-based automation logic
-- Occupancy-driven control strategy
-- Real-world case study integration
-- Energy and economic analysis
+Building and Functional Zones
 
----
+The conceptual building design considers the following functional areas:
 
-##  Real Building Case Study
+Lobby and reception
 
-The model is based on architectural blueprints of a real office building (~1,015.9 m²) with multiple zones:
+Cafeteria
 
-- Auditorium (high occupancy variability)
-- Coworking spaces
-- Cafeteria
-- Data center (constant load)
-- BMS control center
+Open-plan collaborative workspaces
 
-This allows a realistic evaluation of energy consumption and optimization strategies.
+Private administrative offices
 
----
+Data centre/server room
 
-##  Methodology
+The automation concept considers the different operational requirements of these zones, including variable occupancy in shared spaces and continuous operation requirements in the server room.
 
-The total energy consumption is modeled as:
+Proposed Automation Architecture
 
-E_total = Σ (P_lighting × Occupancy + P_HVAC × Temperature) + P_static
+The original design considers the following technologies:
 
-Where:
-- Occupancy varies throughout the day
-- HVAC depends on thermal conditions
-- Static loads include servers and critical infrastructure
+KNX: proposed building automation and control architecture.
 
----
+ETS6: engineering and configuration environment for KNX devices.
 
-##  Results
+DALI: proposed integration for lighting control.
 
-- Energy consumption reduced from **142,000 kWh to 107,000 kWh**
-- ~25% energy savings achieved
-- Highest savings observed in:
-  - Auditorium
-  - Coworking areas
-- Data center maintained constant load for operational stability
+HVAC integration: proposed communication between the KNX system and compatible HVAC equipment through an interface gateway.
 
----
+Sensors and user interfaces: proposed occupancy, environmental and user-control functions.
 
-##  Economic Impact
+The project report documents the proposed system architecture, selected devices, functional zones and building layouts. These elements represent a design proposal rather than evidence of a completed physical installation.
 
-- Investment: **COP $95M – $115M (≈ USD $24k – $29k)**
-- Annual savings: **COP $22,000,000 (≈ USD $5.5k)**
-- ROI: **~4.5 years**
+Preliminary Energy Assessment
 
-This demonstrates strong feasibility for real-world implementation.
+The original project report presents a theoretical comparison between a conventional operating scenario and a proposed automated scenario.
 
----
+The report estimates annual energy consumption as follows:
 
-##  Project Visualizations
+Scenario
 
-### Energy Consumption Profile
-![Energy Profile](results/figure1_profile.png)
+Estimated annual energy consumption
 
-### Total Consumption Comparison
-![Total Comparison](results/figure2_total.png)
+Conventional operation
 
-### Energy Savings
-![Savings](results/figure3_savings.png)
+Approximately 142,000 kWh/year
 
----
+Proposed automated operation
 
-##  Future Work
+Approximately 107,000 kWh/year
 
-- Integration with real KNX hardware
-- PID-based control systems
-- AI-based occupancy prediction
-- IoT sensor integration
+Estimated difference
 
----
+Approximately 35,000 kWh/year
 
-##  Publication
+These figures correspond to an estimated reduction of approximately 24.6%, rounded to 25%.
 
-This project is being prepared for submission to an IEEE conference, combining real-world implementation and simulation-based analysis.
+The values are design-stage estimates reported in the original project document. They are not measurements from an operating building, and the available report does not establish experimental validation of the projected savings.
 
----
+Scope and Limitations
 
-##  Technologies Used
+The original graduation project is a conceptual engineering design. It does not document a completed physical KNX installation or field measurements validating the estimated energy reduction.
 
-- Python
-- NumPy
-- Matplotlib
-- KNX concepts (building automation)
+The annual energy estimates should therefore be interpreted as preliminary projections, not as experimentally demonstrated performance.
 
----
+Any supplementary computational model included in this repository must be assessed separately from the original project. Its assumptions, equations, units, implementation, and results must be documented independently and must not be presented as experimentally validated building performance.
 
+Original Academic Project
 
-## Author
+Title: KNX Automation Project — Melbourne Building
+Authors: Daniel Felipe Villegas Castellanos
+Institution: Universidad Central, Bogotá, Colombia
+Date: November 2025
+Academic context: Electronic Engineering graduation project completed through the thematic advanced course Automation and Control of Smart and Sustainable Buildings.
 
-Daniel Felipe Villegas Castellanos  
-Electronic Engineer | Automation & Control Systems  
+Future Work
 
-📍 Colombia  
-📧 dvillegasc@ucentral.edu.co  
-🔗 GitHub: https://github.com/dvillegasc-bit
+Potential future work includes developing a more detailed and reproducible energy model, validating the model against clearly defined building operating assumptions, refining the proposed KNX device configuration, and evaluating the system through a physical implementation or an appropriate experimental test environment.
+pip install -r requirements.txt
+python tests/test_model.py     # 4 sanity checks
+python main.py                 # prints results, writes results/*.png and results/summary.json
+Authors
+
+Daniel Felipe Villegas Castellanos · Santiago Guarnizo Domínguez Universidad Central, Colombia — dvillegasc@ucentral.edu.co
