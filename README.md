@@ -240,7 +240,7 @@ Potential next steps include:
 ## 11. Original Academic Project
 
 **Project title:** KNX Automation Project — Melbourne Building  
-**Authors:** Daniel Felipe Villegas Castellanos and Santiago Guarnizo Domínguez  
+**Authors:** Daniel Felipe Villegas Castellanos
 **Institution:** Universidad Central, Bogotá, Colombia  
 **Date:** November 2025  
 **Academic context:** Electronic Engineering graduation project completed through the thematic advanced course *Automation and Control of Smart and Sustainable Buildings*.
