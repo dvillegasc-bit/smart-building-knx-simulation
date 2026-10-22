@@ -225,6 +225,16 @@ The script calculates the model's baseline and occupancy-adjusted totals and dis
 
 The output should be interpreted according to the model's assumptions. It must not be presented as a reproduction of the annual estimates in Section 05 unless a documented calculation establishes a valid relationship between the two.
 
+Academic Project and Repository Authorship
+
+The original academic project, KNX Automation Project — Melbourne Building, was developed collaboratively by Daniel Felipe Villegas Castellanos and Santiago Guarnizo Domínguez as part of the undergraduate Electronic Engineering program at Universidad Central, Colombia (November 2025).
+
+This GitHub repository is an individual follow-up project maintained by Daniel Felipe Villegas Castellanos. Its documentation, repository structure, and supplementary Python-based modeling work are separate from the original academic deliverables, unless otherwise explicitly stated.
+
+The original project is a conceptual KNX-based building automation design. The supplementary Python model is intended for illustrative analysis and should not be interpreted as a reproduction or experimental validation of the original project's energy calculations.
+
+Credit for the original academic work is acknowledged to both contributors. Any use or adaptation of original materials remains subject to the applicable authorship rights and permissions.
+
 ## 10. Future Engineering Work
 
 Potential next steps include:
